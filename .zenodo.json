@@ -1,0 +1,12 @@
+{
+  "title": "Audit-certified blind spots for deployed intrusion detectors — code, simulator and results",
+  "description": "Code, trace-driven simulator and result records for certifying what a deployed network intrusion detector misses on a new network, from scarce and delayed labels, using a small budget of random audits and anytime-valid confidence sequences (the accompanying manuscript is not included). The method gives an audit-based upper bound on the missed-compromise rate that needs no label-delay model and no never-discovered share; certifies recall as a ratio made cheap by stratified auditing (recall = TP/(TP+FN), auditing the few, compromise-dense alerted host-windows); and stays valid under bounded audit evasion. The study is a trace-driven simulation: detector scores come from real flows of five public datasets (NF-ToN-IoT-v3, UNSW-NB15, NF-BoT-IoT-v3, and the corrected CIC-IDS2017/CSE-CIC-IDS2018), with the SOC queue, discovery delay and audit channel simulated; a year-apart CIC-IDS2017 to CSE-CIC-IDS2018 deployment uses a real distribution shift. The source datasets are not redistributed, but the cached detector score pools let every experiment be rerun without them.",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {"name": "Abdelhaliem, Amr H.", "affiliation": "Irbid National University"}
+  ],
+  "keywords": ["intrusion detection", "zero-day attacks", "anytime-valid inference", "confidence sequences",
+               "auditing", "recall certification", "stratified sampling", "concept drift", "network security"],
+  "version": "0.1.0"
+}

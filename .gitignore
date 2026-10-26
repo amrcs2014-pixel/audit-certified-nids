@@ -11,3 +11,8 @@ paper/
 results/*.log
 
 # source datasets are not redistributed; cached score pools (cache/*.npz) ARE kept so experiments rerun
+
+# release build artifacts and secrets
+release/*.zip
+release/.zenodo_token
+release/zenodo_draft.json
