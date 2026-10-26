@@ -1,0 +1,1437 @@
+{
+ "cells": [
+  {
+   "dataset": "nf_ton",
+   "campaign": "ransomware",
+   "title": "NF-ToN-IoT-v3",
+   "mu_true": 0.011920882936507938,
+   "recall": 0.00110118095935198,
+   "naive": 0.009918650793650794,
+   "ipcw0": 0.010149673798828491,
+   "naive_bias": -0.16796005409341525,
+   "ipcw0_bias": -0.1485803649874863,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.5,
+     "w_bet_over_mu": 0.9999070251043423,
+     "w_mix_over_mu": 1.0609513033661495,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.7263825084120209,
+     "w_mix_over_mu": 0.7607906651985391,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.47978028248891086,
+     "w_mix_over_mu": 0.4996429685100698,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.29163100373076245,
+     "w_mix_over_mu": 0.3035022027957759,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1913939073750099,
+     "w_mix_over_mu": 0.19803945387264427,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.10570049846092155,
+     "w_mix_over_mu": 0.11005359286484294,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.0700291020162959,
+     "w_mix_over_mu": 0.0729859684025621,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03975375872973706
+  },
+  {
+   "dataset": "nf_ton",
+   "campaign": "backdoor",
+   "title": "NF-ToN-IoT-v3",
+   "mu_true": 0.011910218253968253,
+   "recall": 0.00199483371491381,
+   "naive": 0.009908978174603175,
+   "ipcw0": 0.010139848709863088,
+   "naive_bias": -0.168027154220982,
+   "ipcw0_bias": -0.1486429137027201,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.2434614150585737,
+     "w_mix_over_mu": 1.3058135637585297,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.6369286675531086,
+     "w_mix_over_mu": 0.6704126793647553,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.43162935391664725,
+     "w_mix_over_mu": 0.4508895080697545,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.32903424374152884,
+     "w_mix_over_mu": 0.34097013628777295,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1633701311732017,
+     "w_mix_over_mu": 0.16987850980399113,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09656371267441538,
+     "w_mix_over_mu": 0.10091724060265421,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.08019272510495722,
+     "w_mix_over_mu": 0.08316971024811262,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.042715906687559466
+  },
+  {
+   "dataset": "nf_ton",
+   "campaign": "mitm",
+   "title": "NF-ToN-IoT-v3",
+   "mu_true": 0.011075644841269841,
+   "recall": 0.07191920065259609,
+   "naive": 0.009222718253968254,
+   "ipcw0": 0.009437457306805227,
+   "naive_bias": -0.16729740018362182,
+   "ipcw0_bias": -0.1479089983420589,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.625,
+     "w_bet_over_mu": 0.911708764722548,
+     "w_mix_over_mu": 0.9752639051550144,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.7137371396877907,
+     "w_mix_over_mu": 0.7491458537148414,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.481233701758756,
+     "w_mix_over_mu": 0.5016933284010706,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3032768798118984,
+     "w_mix_over_mu": 0.3155541031901149,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2234891596061202,
+     "w_mix_over_mu": 0.23046570422023965,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.16461160044195086,
+     "w_mix_over_mu": 0.16924014255736297,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09597709490508109,
+     "w_mix_over_mu": 0.09909395722403261,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03890687287567844
+  },
+  {
+   "dataset": "nf_ton",
+   "campaign": "xss",
+   "title": "NF-ToN-IoT-v3",
+   "mu_true": 0.010165674603174604,
+   "recall": 0.1481834901289518,
+   "naive": 0.00848139880952381,
+   "ipcw0": 0.008678879738395144,
+   "naive_bias": -0.16568263882111833,
+   "ipcw0_bias": -0.1462563895479355,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.2004057777145114,
+     "w_mix_over_mu": 1.2712148198690594,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.75,
+     "w_bet_over_mu": 0.7647946751452349,
+     "w_mix_over_mu": 0.802334696725931,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5644554993325325,
+     "w_mix_over_mu": 0.5862597685793994,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.42958563096446434,
+     "w_mix_over_mu": 0.443074924026091,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.22880901673030962,
+     "w_mix_over_mu": 0.23608709545779438,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.18075092900440357,
+     "w_mix_over_mu": 0.18565420396707225,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.12469906651476063,
+     "w_mix_over_mu": 0.12799487656512715,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.030827939635463354
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "shellcode",
+   "title": "UNSW-NB15 (standard set)",
+   "mu_true": 0.008657738095238095,
+   "recall": 0.2745201925412504,
+   "naive": 0.007213293650793651,
+   "ipcw0": 0.007381389204561865,
+   "naive_bias": -0.16683854703792828,
+   "ipcw0_bias": -0.1474229038388495,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.125,
+     "w_bet_over_mu": 1.1795340124684333,
+     "w_mix_over_mu": 1.2584031701309226,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.6898924569426748,
+     "w_mix_over_mu": 0.7309340472772192,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5181856046066339,
+     "w_mix_over_mu": 0.5418937893697185,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.36825622792986434,
+     "w_mix_over_mu": 0.3827507265816403,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.21500598747935887,
+     "w_mix_over_mu": 0.22290966145293556,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.15577814198897003,
+     "w_mix_over_mu": 0.1610119819604334,
+     "recall_lo": 0.019809016458252948,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.12187977924352186,
+     "w_mix_over_mu": 0.12541372891048908,
+     "recall_lo": 0.10206132786875333,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03786929101670634
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "fuzzers",
+   "title": "UNSW-NB15 (standard set)",
+   "mu_true": 0.008380704365079365,
+   "recall": 0.2977361699800975,
+   "naive": 0.00697718253968254,
+   "ipcw0": 0.007139900063664353,
+   "naive_bias": -0.1674706282738007,
+   "ipcw0_bias": -0.14805489459635202,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.4060592922190989,
+     "w_mix_over_mu": 1.4910426940221722,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.625,
+     "w_bet_over_mu": 0.9602701536072226,
+     "w_mix_over_mu": 1.0052005091402088,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.6977181261808039,
+     "w_mix_over_mu": 0.7229601598840829,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3987017445541581,
+     "w_mix_over_mu": 0.4135371507039821,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2340561989864633,
+     "w_mix_over_mu": 0.24215134532420735,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.17658425671226513,
+     "w_mix_over_mu": 0.18194878964769381,
+     "recall_lo": 0.04603010693779458,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.12539743955943608,
+     "w_mix_over_mu": 0.12903096270095218,
+     "recall_lo": 0.12940319630018704,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 1.0,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03491483362973455
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "generic",
+   "title": "UNSW-NB15 (standard set)",
+   "mu_true": 0.007463293650793651,
+   "recall": 0.3746152646148299,
+   "naive": 0.00620734126984127,
+   "ipcw0": 0.006352313077376973,
+   "naive_bias": -0.1682839292835305,
+   "ipcw0_bias": -0.1488592872529591,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.0,
+     "w_bet_over_mu": 1.576015049623437,
+     "w_mix_over_mu": 1.6714165236560203,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.375,
+     "w_bet_over_mu": 1.1389139647036906,
+     "w_mix_over_mu": 1.187070717874009,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.6742091732211799,
+     "w_mix_over_mu": 0.7009651337423715,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.48146259262473184,
+     "w_mix_over_mu": 0.4977347546829329,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.25511325549204866,
+     "w_mix_over_mu": 0.2638262001232343,
+     "recall_lo": 0.04478550633752593,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.15470854291397446,
+     "w_mix_over_mu": 0.16035906321583893,
+     "recall_lo": 0.15824161216120403,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.11285169096380313,
+     "w_mix_over_mu": 0.11665753856395304,
+     "recall_lo": 0.2272086844283258,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 1.0,
+   "min_budget_recall": 20.0,
+   "betting_tighten": 0.035236675673635136
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "reconnaissance",
+   "title": "UNSW-NB15 (standard set)",
+   "mu_true": 0.004968501984126984,
+   "recall": 0.583652961998864,
+   "naive": 0.004105654761904762,
+   "ipcw0": 0.004200678913930325,
+   "naive_bias": -0.17366345529875707,
+   "ipcw0_bias": -0.15453814301567065,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.0,
+     "w_bet_over_mu": 1.9017157404289966,
+     "w_mix_over_mu": 2.0339162672357167,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.1372320508748368,
+     "w_mix_over_mu": 1.202432017294963,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.8055493175062103,
+     "w_mix_over_mu": 0.8413675970447588,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5537553435003623,
+     "w_mix_over_mu": 0.5747660900466205,
+     "recall_lo": 0.10176681340367127,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2930398009436818,
+     "w_mix_over_mu": 0.3040033628875622,
+     "recall_lo": 0.31417181679167105,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.16194294937872275,
+     "w_mix_over_mu": 0.16898207839090543,
+     "recall_lo": 0.40616922577512826,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.15032764356026893,
+     "w_mix_over_mu": 0.1550994013803127,
+     "recall_lo": 0.46535811243532915,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 1.0,
+   "min_budget_recall": 5.0,
+   "betting_tighten": 0.041656068378441255
+  },
+  {
+   "dataset": "nf_bot",
+   "campaign": "theft",
+   "title": "NF-BoT-IoT-v3",
+   "mu_true": 0.011331597222222222,
+   "recall": 0.05049667261387322,
+   "naive": 0.009434771825396825,
+   "ipcw0": 0.009654695216020102,
+   "naive_bias": -0.1673925890258049,
+   "ipcw0_bias": -0.14798461093495036,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.3596718117533608,
+     "w_mix_over_mu": 1.4258420229875075,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.75,
+     "w_bet_over_mu": 0.8749024555117564,
+     "w_mix_over_mu": 0.9107645786400058,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5656402784585921,
+     "w_mix_over_mu": 0.5862725375132384,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3814037737159139,
+     "w_mix_over_mu": 0.39399180819698704,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2351107800665676,
+     "w_mix_over_mu": 0.24203341786896299,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1646684305342859,
+     "w_mix_over_mu": 0.16925609631236815,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.11730753737319978,
+     "w_mix_over_mu": 0.12039312604512596,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03194999037842791
+  },
+  {
+   "dataset": "nf_bot",
+   "campaign": "reconnaissance",
+   "title": "NF-BoT-IoT-v3",
+   "mu_true": 0.010821676587301586,
+   "recall": 0.09320511395197893,
+   "naive": 0.00900669642857143,
+   "ipcw0": 0.009215944527794907,
+   "naive_bias": -0.16771709485939523,
+   "ipcw0_bias": -0.1483810800066677,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.5,
+     "w_bet_over_mu": 1.0364006362490141,
+     "w_mix_over_mu": 1.102668198654184,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.6526253255291041,
+     "w_mix_over_mu": 0.6881106560326418,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5306920824520044,
+     "w_mix_over_mu": 0.5515802060178067,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4019579893113162,
+     "w_mix_over_mu": 0.41494138249906515,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.23283270119345895,
+     "w_mix_over_mu": 0.23996834747599535,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1665235728600672,
+     "w_mix_over_mu": 0.1712130716560457,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.11806617107509801,
+     "w_mix_over_mu": 0.12122703647704904,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.031289704366322606
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "botnet",
+   "title": "CIC-IDS2017 (improved)",
+   "mu_true": 0.0118390376984127,
+   "recall": 0.007964569507270147,
+   "naive": 0.009858878968253968,
+   "ipcw0": 0.01008861690250732,
+   "naive_bias": -0.1672567298627842,
+   "ipcw0_bias": -0.14785161095821697,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.375,
+     "w_bet_over_mu": 1.0653408726769182,
+     "w_mix_over_mu": 1.126418180238321,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.75,
+     "w_bet_over_mu": 0.7565823445557386,
+     "w_mix_over_mu": 0.7913795745078755,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4518272917665924,
+     "w_mix_over_mu": 0.471191519517682,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3277671633642073,
+     "w_mix_over_mu": 0.33982439577614615,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.21814708546106698,
+     "w_mix_over_mu": 0.2248555733316343,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.15211749439586147,
+     "w_mix_over_mu": 0.15657304782624112,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09253325823682765,
+     "w_mix_over_mu": 0.0955034427868858,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.0354807734871435
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "bruteforce",
+   "title": "CIC-IDS2017 (improved)",
+   "mu_true": 0.011701636904761906,
+   "recall": 0.0194733097495967,
+   "naive": 0.009735863095238096,
+   "ipcw0": 0.009962620875507602,
+   "naive_bias": -0.16799135245119856,
+   "ipcw0_bias": -0.14861305673795278,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.375,
+     "w_bet_over_mu": 1.0367224832065498,
+     "w_mix_over_mu": 1.0997287349295168,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.7112411618647211,
+     "w_mix_over_mu": 0.7446261197141936,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4192041294918996,
+     "w_mix_over_mu": 0.43856723503359735,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.30622216833189475,
+     "w_mix_over_mu": 0.3181269916973408,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2009090146066083,
+     "w_mix_over_mu": 0.20765050325152307,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.13579422364546526,
+     "w_mix_over_mu": 0.1402531857584913,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09924395238472836,
+     "w_mix_over_mu": 0.1022531757556722,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03742160733337605
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "web",
+   "title": "CIC-IDS2017 (improved)",
+   "mu_true": 0.00960813492063492,
+   "recall": 0.19488821793481254,
+   "naive": 0.008020833333333333,
+   "ipcw0": 0.008207862177454795,
+   "naive_bias": -0.1652039235931853,
+   "ipcw0_bias": -0.14573824730258808,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.75,
+     "w_bet_over_mu": 0.7675041053390036,
+     "w_mix_over_mu": 0.8352464471652726,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.6753855130357357,
+     "w_mix_over_mu": 0.7168194822212968,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5152900540442712,
+     "w_mix_over_mu": 0.5374121095800901,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.34602228299137416,
+     "w_mix_over_mu": 0.3595749562224346,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.19305511854373578,
+     "w_mix_over_mu": 0.20044918415262755,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.14028979199383046,
+     "w_mix_over_mu": 0.14521610776176763,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09952241145838456,
+     "w_mix_over_mu": 0.10284586697486134,
+     "recall_lo": 0.012268288585945586,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.25,
+   "min_budget_recall": null,
+   "betting_tighten": 0.037690815215386475
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "dos",
+   "title": "CIC-IDS2017 (improved)",
+   "mu_true": 0.004689732142857143,
+   "recall": 0.6070012645920414,
+   "naive": 0.0038697916666666663,
+   "ipcw0": 0.00395933041910169,
+   "naive_bias": -0.1748373790258608,
+   "ipcw0_bias": -0.15574487017726946,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.0,
+     "w_bet_over_mu": 1.9737398020573849,
+     "w_mix_over_mu": 2.1097616298798103,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.1879610073105131,
+     "w_mix_over_mu": 1.257864729276027,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 0.75,
+     "w_bet_over_mu": 0.8003101942101919,
+     "w_mix_over_mu": 0.8374600735761958,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5844144257556062,
+     "w_mix_over_mu": 0.6064343053199136,
+     "recall_lo": 0.14196798904208752,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.35439593335764835,
+     "w_mix_over_mu": 0.3659822633558779,
+     "recall_lo": 0.35073204108122596,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.24822361074560034,
+     "w_mix_over_mu": 0.25568349309172034,
+     "recall_lo": 0.42816218362244796,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.17567840312044833,
+     "w_mix_over_mu": 0.1806629568924934,
+     "recall_lo": 0.4896348967048921,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 1.0,
+   "min_budget_recall": 5.0,
+   "betting_tighten": 0.036310412143803775
+  },
+  {
+   "dataset": "cic2018",
+   "campaign": "bruteforce",
+   "title": "CSE-CIC-IDS2018 (improved)",
+   "mu_true": 0.011771329365079367,
+   "recall": 0.013633820733288629,
+   "naive": 0.009796875,
+   "ipcw0": 0.010025030608477804,
+   "naive_bias": -0.16773418734988,
+   "ipcw0_bias": -0.1483518727954469,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.375,
+     "w_bet_over_mu": 1.1319657380403654,
+     "w_mix_over_mu": 1.1979130284561,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.573767118060132,
+     "w_mix_over_mu": 0.6070075898514523,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4489149449336113,
+     "w_mix_over_mu": 0.4684396520072308,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3124294939789544,
+     "w_mix_over_mu": 0.3244270528045966,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.21403816863341701,
+     "w_mix_over_mu": 0.22077954859561907,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1546659608455424,
+     "w_mix_over_mu": 0.15914160176751285,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.0883875219663161,
+     "w_mix_over_mu": 0.09139143752384495,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03698075953261626
+  },
+  {
+   "dataset": "cic2018",
+   "campaign": "infiltration",
+   "title": "CSE-CIC-IDS2018 (improved)",
+   "mu_true": 0.011441220238095238,
+   "recall": 0.041295261773651365,
+   "naive": 0.009527529761904761,
+   "ipcw0": 0.009749242564843757,
+   "naive_bias": -0.16726279508356642,
+   "ipcw0_bias": -0.1478843722995377,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.375,
+     "w_bet_over_mu": 1.1315428181291058,
+     "w_mix_over_mu": 1.1960819673281666,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.625,
+     "w_bet_over_mu": 0.8210292845659264,
+     "w_mix_over_mu": 0.8561738470100076,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4655739186417952,
+     "w_mix_over_mu": 0.48528737113537496,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.3664097679561355,
+     "w_mix_over_mu": 0.37902812764595784,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.21506034752502234,
+     "w_mix_over_mu": 0.22191906740994152,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.1369986344612091,
+     "w_mix_over_mu": 0.1414930933431424,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.09194388154489751,
+     "w_mix_over_mu": 0.09499002451431698,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 1.0,
+   "min_budget_recall": null,
+   "betting_tighten": 0.033291354307110624
+  },
+  {
+   "dataset": "cic2018",
+   "campaign": "ddos",
+   "title": "CSE-CIC-IDS2018 (improved)",
+   "mu_true": 0.010845486111111111,
+   "recall": 0.09121041533611872,
+   "naive": 0.009027529761904761,
+   "ipcw0": 0.009237301764227728,
+   "naive_bias": -0.1676233163346979,
+   "ipcw0_bias": -0.14828144450213365,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.5,
+     "w_bet_over_mu": 1.0528280893231559,
+     "w_mix_over_mu": 1.118490438337774,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.7660672741716711,
+     "w_mix_over_mu": 0.8019995236158173,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.5148923742984538,
+     "w_mix_over_mu": 0.535459149255094,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.32200544430586875,
+     "w_mix_over_mu": 0.3344913976955481,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.20347469555798595,
+     "w_mix_over_mu": 0.2104596558105784,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.14181857622392172,
+     "w_mix_over_mu": 0.14643918941267467,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.0962876484767874,
+     "w_mix_over_mu": 0.09942159730707309,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03732817488192618
+  },
+  {
+   "dataset": "cic2018",
+   "campaign": "web",
+   "title": "CSE-CIC-IDS2018 (improved)",
+   "mu_true": 0.009583581349206349,
+   "recall": 0.19694636816577427,
+   "naive": 0.007996775793650792,
+   "ipcw0": 0.008183126393373836,
+   "naive_bias": -0.1655754250666392,
+   "ipcw0_bias": -0.1461306483247507,
+   "rows": [
+    {
+     "budget_pct": 0.25,
+     "coverage": 1.0,
+     "within2x": 0.25,
+     "w_bet_over_mu": 1.3045601539276517,
+     "w_mix_over_mu": 1.3788428527182732,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 0.5,
+     "coverage": 1.0,
+     "within2x": 0.875,
+     "w_bet_over_mu": 0.8168312292985216,
+     "w_mix_over_mu": 0.8557192097580202,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 1.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.4939060472663469,
+     "w_mix_over_mu": 0.5160768878698249,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 2.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.38408943901005216,
+     "w_mix_over_mu": 0.3977971370629453,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 5.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.2164567877277539,
+     "w_mix_over_mu": 0.22399993042061195,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 10.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.14604160080548018,
+     "w_mix_over_mu": 0.15098033345622816,
+     "recall_lo": 0.0,
+     "recall_cov": 1.0
+    },
+    {
+     "budget_pct": 20.0,
+     "coverage": 1.0,
+     "within2x": 1.0,
+     "w_bet_over_mu": 0.10137978724003034,
+     "w_mix_over_mu": 0.10473208980748533,
+     "recall_lo": 0.005784189056078526,
+     "recall_cov": 1.0
+    }
+   ],
+   "min_budget": 0.5,
+   "min_budget_recall": null,
+   "betting_tighten": 0.03445901635718432
+  }
+ ],
+ "budgets": [
+  0.25,
+  0.5,
+  1.0,
+  2.0,
+  5.0,
+  10.0,
+  20.0
+ ],
+ "seeds": 8,
+ "alpha": 0.05
+}

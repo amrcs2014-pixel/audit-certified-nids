@@ -1,0 +1,13 @@
+# byte-compiled
+__pycache__/
+*.pyc
+
+# the manuscript is not published here (code, results and data documentation only)
+paper/
+*.docx
+*.pdf
+
+# machine-specific run logs
+results/*.log
+
+# source datasets are not redistributed; cached score pools (cache/*.npz) ARE kept so experiments rerun

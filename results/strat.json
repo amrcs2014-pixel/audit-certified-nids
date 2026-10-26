@@ -1,0 +1,630 @@
+{
+ "cells": [
+  {
+   "dataset": "nf_ton",
+   "campaign": "xss",
+   "title": "NF-ToN-IoT-v3",
+   "recall": 0.1481834901289518,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9963045634920635,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9917658730158732,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.988492063492064,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.00126488095238,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985887896825396,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 0.38578869047619047,
+     "recall_lo": 0.001630951878805046,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 0.6356398809523809,
+     "recall_lo": 0.0642847896696414,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 0.8840029761904762,
+     "recall_lo": 0.0804682790971776,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 1.3780257936507936,
+     "recall_lo": 0.09071736102144107,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 2.369791666666667,
+     "recall_lo": 0.09960760773713566,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 5.3546875,
+     "recall_lo": 0.11389140262927681,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": null,
+   "strat_budget": 0.8840029761904762
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "web",
+   "title": "CIC-IDS2017 (improved)",
+   "recall": 0.19488821793481254,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9961061507936508,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9914434523809526,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.987896825396826,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.000719246031746,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985590277777778,
+     "recall_lo": 0.012268288585945586,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 1.0236111111111112,
+     "recall_lo": 0.0021457319411070106,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 1.2717261904761905,
+     "recall_lo": 0.10618295485486393,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 1.5187251984126986,
+     "recall_lo": 0.11557183911587283,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 2.0093750000000004,
+     "recall_lo": 0.12555205000432973,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 2.994345238095238,
+     "recall_lo": 0.13835310667375217,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 5.9609375,
+     "recall_lo": 0.15464814554263556,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": null,
+   "strat_budget": 1.2717261904761905
+  },
+  {
+   "dataset": "cic2018",
+   "campaign": "web",
+   "title": "CSE-CIC-IDS2018 (improved)",
+   "recall": 0.19694636816577427,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.996031746031746,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9914434523809526,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.987921626984127,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.000669642857144,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985540674603172,
+     "recall_lo": 0.005784189056078526,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 1.5702876984126983,
+     "recall_lo": 0.0021747132616141036,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 1.817013888888889,
+     "recall_lo": 0.08653211779839512,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 2.062251984126984,
+     "recall_lo": 0.1037632165208926,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 2.550049603174603,
+     "recall_lo": 0.12548052658010986,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 3.5287450396825397,
+     "recall_lo": 0.13564618558443703,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 6.478174603174603,
+     "recall_lo": 0.15153642738354503,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": null,
+   "strat_budget": 2.062251984126984
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "shellcode",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.2745201925412504,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9958333333333333,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9916170634920636,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.987698412698412,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.000421626984128,
+     "recall_lo": 0.019809016458252948,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.98482142857143,
+     "recall_lo": 0.10206132786875333,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 2.166269841269841,
+     "recall_lo": 0.003069387748033929,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 2.4115079365079364,
+     "recall_lo": 0.13261619207367992,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 2.654985119047619,
+     "recall_lo": 0.16467209897146545,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 3.1410218253968254,
+     "recall_lo": 0.18396091636388606,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 4.116170634920635,
+     "recall_lo": 0.20213254275750653,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 7.048412698412699,
+     "recall_lo": 0.22587730281360785,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": null,
+   "strat_budget": 2.654985119047619
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "fuzzers",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.2977361699800975,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9959573412698413,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.99171626984127,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.988244047619048,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.001140873015874,
+     "recall_lo": 0.04603010693779458,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985466269841268,
+     "recall_lo": 0.12940319630018704,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 2.2565476190476192,
+     "recall_lo": 0.003339783751544729,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 2.5015625,
+     "recall_lo": 0.13252540229046594,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 2.744816468253968,
+     "recall_lo": 0.16519102670815958,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 3.2299355158730156,
+     "recall_lo": 0.18655584175547396,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 4.2025049603174605,
+     "recall_lo": 0.21569462646325624,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 7.132862103174603,
+     "recall_lo": 0.2390725691818794,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": null,
+   "strat_budget": 2.744816468253968
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "generic",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.3746152646148299,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9961061507936508,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9919890873015873,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.988194444444444,
+     "recall_lo": 0.04478550633752593,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.001165674603174,
+     "recall_lo": 0.15824161216120403,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985590277777778,
+     "recall_lo": 0.2272086844283258,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 2.31765873015873,
+     "recall_lo": 0.004241439380716907,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 2.5631944444444446,
+     "recall_lo": 0.17089679535190855,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 2.80672123015873,
+     "recall_lo": 0.20419504195559368,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 3.291294642857143,
+     "recall_lo": 0.2429800994779141,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 4.263566468253968,
+     "recall_lo": 0.2695129761265266,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 7.186607142857143,
+     "recall_lo": 0.30300271951350716,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": 19.985590277777778,
+   "strat_budget": 2.80672123015873
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "reconnaissance",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.583652961998864,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9968501984126984,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9921875,
+     "recall_lo": 0.10176681340367127,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.9888144841269835,
+     "recall_lo": 0.31417181679167105,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 10.000248015873016,
+     "recall_lo": 0.40616922577512826,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.985267857142855,
+     "recall_lo": 0.46535811243532915,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 1.9830853174603176,
+     "recall_lo": 0.006725879303646869,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 2.2290674603174603,
+     "recall_lo": 0.2995618136374838,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 2.473735119047619,
+     "recall_lo": 0.37657212639363297,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 2.9607638888888888,
+     "recall_lo": 0.41931808132373355,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 3.9358878968253967,
+     "recall_lo": 0.4589845461232284,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 6.872445436507936,
+     "recall_lo": 0.5060567070300954,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": 4.9888144841269835,
+   "strat_budget": 2.2290674603174603
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "dos",
+   "title": "CIC-IDS2017 (improved)",
+   "recall": 0.6070012645920414,
+   "uniform": [
+    {
+     "knob": 1.0,
+     "budget": 0.9968501984126983,
+     "recall_lo": 0.0,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 1.9919146825396825,
+     "recall_lo": 0.14196798904208752,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 4.98874007936508,
+     "recall_lo": 0.35073204108122596,
+     "coverage": 1.0
+    },
+    {
+     "knob": 10.0,
+     "budget": 9.99985119047619,
+     "recall_lo": 0.42816218362244796,
+     "coverage": 1.0
+    },
+    {
+     "knob": 20.0,
+     "budget": 19.984077380952378,
+     "recall_lo": 0.4896348967048921,
+     "coverage": 1.0
+    }
+   ],
+   "stratified": [
+    {
+     "knob": 0.0,
+     "budget": 1.324875992063492,
+     "recall_lo": 0.007004056916552636,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.25,
+     "budget": 1.5725446428571428,
+     "recall_lo": 0.31802556273724764,
+     "coverage": 1.0
+    },
+    {
+     "knob": 0.5,
+     "budget": 1.8188988095238094,
+     "recall_lo": 0.3907018590718385,
+     "coverage": 1.0
+    },
+    {
+     "knob": 1.0,
+     "budget": 2.30875496031746,
+     "recall_lo": 0.4433857162459114,
+     "coverage": 1.0
+    },
+    {
+     "knob": 2.0,
+     "budget": 3.2905257936507937,
+     "recall_lo": 0.4752451686239939,
+     "coverage": 1.0
+    },
+    {
+     "knob": 5.0,
+     "budget": 6.247916666666667,
+     "recall_lo": 0.5196482934792249,
+     "coverage": 1.0
+    }
+   ],
+   "uni_budget": 4.98874007936508,
+   "strat_budget": 1.5725446428571428
+  }
+ ],
+ "seeds": 8,
+ "alpha": 0.05
+}

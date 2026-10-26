@@ -1,0 +1,164 @@
+{
+ "cells": [
+  {
+   "dataset": "unsw_std",
+   "campaign": "reconnaissance",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.583652961998864,
+   "pts": [
+    {
+     "eta": 0.0,
+     "recall_lo": 0.4589845461232284,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.05,
+     "recall_lo": 0.4462772562344054,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.1,
+     "recall_lo": 0.43295866053142074,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.2,
+     "recall_lo": 0.40430218225569814,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.3,
+     "recall_lo": 0.3725950355689016,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    }
+   ]
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "dos",
+   "title": "CIC-IDS2017 (improved)",
+   "recall": 0.6070012645920414,
+   "pts": [
+    {
+     "eta": 0.0,
+     "recall_lo": 0.4752451686239939,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.05,
+     "recall_lo": 0.4624723856091413,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.1,
+     "recall_lo": 0.44906229362038574,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.2,
+     "recall_lo": 0.42012936655372396,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.3,
+     "recall_lo": 0.38798910074463333,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    }
+   ]
+  },
+  {
+   "dataset": "unsw_std",
+   "campaign": "generic",
+   "title": "UNSW-NB15 (standard set)",
+   "recall": 0.3746152646148299,
+   "pts": [
+    {
+     "eta": 0.0,
+     "recall_lo": 0.2695129761265266,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.05,
+     "recall_lo": 0.25953473069984945,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.1,
+     "recall_lo": 0.24928010969490005,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.2,
+     "recall_lo": 0.22789450248810972,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.3,
+     "recall_lo": 0.20525475189963313,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    }
+   ]
+  },
+  {
+   "dataset": "cic2017",
+   "campaign": "web",
+   "title": "CIC-IDS2017 (improved)",
+   "recall": 0.19488821793481254,
+   "pts": [
+    {
+     "eta": 0.0,
+     "recall_lo": 0.13835310667375217,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.05,
+     "recall_lo": 0.13235101121930143,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.1,
+     "recall_lo": 0.12626470979954385,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.2,
+     "recall_lo": 0.11383230002716573,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    },
+    {
+     "eta": 0.3,
+     "recall_lo": 0.10104098043259586,
+     "recall_cov": 1.0,
+     "mu_cov": 1.0
+    }
+   ]
+  }
+ ],
+ "etas": [
+  0.0,
+  0.05,
+  0.1,
+  0.2,
+  0.3
+ ],
+ "seeds": 8
+}

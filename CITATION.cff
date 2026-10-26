@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Audit-certified blind spots for deployed intrusion detectors — code, simulator and results"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/amrcs2014-pixel/audit-certified-nids"
+authors:
+  - family-names: "Abdelhaliem"
+    given-names: "Amr H."
+    affiliation: "Department of Cyber Security, Irbid National University, Irbid, Jordan"
+    email: "a.hasan@inu.edu.jo"
+keywords:
+  - intrusion detection
+  - zero-day attacks
+  - anytime-valid inference
+  - confidence sequences
+  - auditing
+  - recall certification
+  - concept drift
